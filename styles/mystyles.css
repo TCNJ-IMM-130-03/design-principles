@@ -1,77 +1,113 @@
-#wrapper {
-    width:400px;
-    margin: 0 auto 0 auto;
-    border: 1px solid #777;
+#head-container
+{
+	color: #000;
+	background: #ccc;
 }
-header.page {
-    margin:10px;
-    padding: 10px;
-    border:1px solid #000;
-    text-align:center;
+
+#header
+{
+	margin: 0 auto;
+	width: 860px;
+	padding: 20px;
+	background: #ddd;
 }
-header.page h1:hover {
-    color:#444444;
+
+#header h1 { margin: 0; }
+
+#navigation-container
+{
+	float: left;
+	width: 100%;
+	color: #000;
+	background: #333;
 }
-article, aside {
-    float:left;
+
+#navigation
+{
+	margin: 0 auto;
+	width: 900px;
 }
-nav li {
-    display:inline;
-    padding:0;
-    margin:0;
-    padding-right:20px;
+
+#navigation ul
+{
+	margin: 0;
+	padding: 0;
 }
-a:link {
-    color:#777;
+
+#navigation ul li
+{
+	list-style-type: none;
+	display: inline;
 }
-a:hover {
-    color:#aaa;
+
+#navigation li a
+{
+	display: block;
+	float: left;
+	padding: 5px 10px;
+	color: #fff;
+	text-decoration: none;
+	border-right: 1px solid #fff;
 }
-a:visited {
-    color:#660000;
-    text-decoration:none;
+
+#navigation li a:hover { background: #383; }
+
+#content-container
+{
+	float: left;
+	width: 100%;
+	color: #000;
+	background: #eee;
 }
-a:active {
-    color:#999900;
+
+#content-container2
+{
+	margin: 0 auto;
+	width: 900px;
 }
-article {
-    width:275px;
-    margin:10px;
+
+#content-container3
+{
+	float: left;
+	width: 900px;
+	background: #FFF url(two-fixed-background.gif) repeat-y 100% 0;
 }
-aside li {
-    list-style: disc url('https://drive.google.com/uc?id=0B6Sg_ALpI1HFVDBlVEdsenV3ZHc');
+
+#content
+{
+	clear: left;
+	float: left;
+	width: 560px;
+	padding: 20px 0;
+	margin: 0 0 0 30px;
+	display: inline;
 }
-footer {
-    clear:left;
-    border:1px solid #000;
-    margin:10px;
-    padding:10px;
+
+#content h2 { margin: 0; }
+
+#aside
+{
+	float: right;
+	width: 240px;
+	padding: 20px 0;
+	margin: 0 20px 0 0;
+	display: inline;
 }
-    
-@media screen and (max-width:960px) {
-    #wrapper{
-        width: 94%;
-        }
-        article{
-        width: 66%;
-        }
-        article img{
-            width: 30%
-            height: 30%
-        }
-        aside{
-            width: 20%
-        }
-    }
-@media screen and (max-width:700px) {
-   
-        article{
-        width: auto;
-        float: none;
-        }
-        article img{
-            width: auto;
-            float: none;
-        }
-    }
+
+#aside h3 { margin: 0; }
+
+#footer-container
+{
+	clear: left;
+	color: #fff;
+	background: #000;
+}
+
+#footer
+{
+	margin: 0 auto;
+	width: 900px;
+	text-align: right;
+	padding: 20px;
+	height: 1%;
 }
